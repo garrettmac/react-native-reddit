@@ -1,0 +1,27 @@
+{
+  "name": "react-native-reddit",
+  "version": "0.0.1",
+  "description": "A wrapper for the Reddit API that saves user login details to async storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garrettmac/react-native-reddit.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "reddit",
+    "reddit-api",
+    "ios",
+    "android"
+  ],
+  "author": "Garrett Mac <garrett@vyga.io> (http://vyga.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garrettmac/react-native-reddit/issues"
+  },
+  "homepage": "https://github.com/garrettmac/react-native-reddit#readme"
+}

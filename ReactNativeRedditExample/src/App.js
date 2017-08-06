@@ -9,7 +9,7 @@ import {
   Switch,
 } from 'react-native';
 
-import FrontPage from './Pages/FrontPage';
+import ManageAccountsPage from './Pages/ManageAccountsPage';
 // import ListViewHorizontalExample from './Page/ListViewHorizontalExample';
 // import SectionListHorizontalExample from './Page/SectionListHorizontalExample';
 
@@ -21,7 +21,7 @@ export default class App extends Component {
     super(props);
 
     this.state = {
-      Component: FrontPage,
+      Component: ManageAccountsPage,
     };
   }
 
@@ -77,7 +77,7 @@ export default class App extends Component {
   render() {
     return this.renderExamples([
       // [<component>, <component title>]
-      [FrontPage, 'FrontPage Example'],
+      [ManageAccountsPage, 'ManageAccountsPage Example'],
       // [ListViewHorizontalExample, 'Horizontal ListView Example'],
       // [SectionListHorizontalExample , 'Horizontal SectionList Example'],
     ]
